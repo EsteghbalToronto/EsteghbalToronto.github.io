@@ -11922,7 +11922,7 @@ p {
 }
 
 .page-section {
-    padding: 6rem 0;
+    padding: 4rem 0;
 }
 
 .page-section h2.section-heading, .page-section .section-heading.h2 {
@@ -12477,7 +12477,6 @@ section#contact form#contactForm :-ms-input-placeholder {
     background-color: rgba(107, 180, 255, 0.11);
 }
 
-
 .num {
     direction: ltr;
 }
@@ -12485,4 +12484,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 li {
     margin: 5px 0;
+}
+
+
+.line:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #d9d9d9;
 }
